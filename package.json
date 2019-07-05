@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "IDKWHATHISIS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Rad80/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Rad80/NodeJS/issues"
+  },
+  "homepage": "https://github.com/B-Rad80/NodeJS#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "express": "^4.17.1"
+  }
+}
