@@ -2,3 +2,13 @@
 background-image: url("../Photos/background.jpg");
 background-size: cover;
 }
+.banner {
+    background: #f00;
+    height: 30px;
+}
+iframe {
+    display: block;
+    background: #000;
+    height: calc(100vh - 30px);
+    width: 100%;
+}

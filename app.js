@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
 });
 
 //DATA PAGE
-app.get('/data', (req, res) => {
-    res.sendFile(base_path +'demofile1.html', {
+app.get('/resume', (req, res) => {
+    res.sendFile(base_path +'IFrame.html', {
         root: path.join(__dirname, './')
     });
 })
