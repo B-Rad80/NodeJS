@@ -1,6 +1,6 @@
 var nodemailer = require('nodemailer');
 const pass = ''
-var ex = function mailinfo(from, email,subject, message){
+var ex = async function mailinfo(from, email,subject, message){
     this.from = from
     this.message = message
 
@@ -19,7 +19,7 @@ var ex = function mailinfo(from, email,subject, message){
       text: from+ email + message
     };
 
-    transporter.sendMail(mailOptions, function(error, info){
+    await ransporter.sendMail(mailOptions, function(error, info){
       if (error) {
         console.log(error);
       } else {
